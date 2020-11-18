@@ -44,9 +44,12 @@
   .bg-1 {  
     color: black;
     background-image:url(images/Untitled-1.jpg);
+	background-position : center ;
     background-repeat: no-repeat;
     background-size: cover;
+	
   }
+  
   .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
@@ -240,6 +243,31 @@
  color: black;
  padding-top: 20px;
 }
+
+.modal-body p {
+color: black ;
+}
+.modal-header h4 {
+color: black ;
+}
+.input-fields1 {
+padding:10px;
+}
+.input-fields1 label {
+
+color:black ; 
+align:left ; 
+
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+.navbar-brand {
+font-size : 32px;
+padding : 20px ;
+
+}
   </style>
   
 </head>
@@ -252,7 +280,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="#">hey bhavyee</a>
+            <a class="navbar-brand" href="#">Hey Bhavyee</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -282,9 +310,40 @@
       <div class="container-fluid bg-2 text-center">
         <h3 class="margin">Who Am I?</h3>
         <p>I Am First Year Btech Student Clearing His Hands First Time On HTML BOOTSTRAP CSS , I Love Learning New Things In This Field    </p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScLFPrA4orIGbvAbbDC9Cl0UMUdFGnZyQndtzjIji6IweyuVA/viewform?usp=sf_link" class="btn btn-default btn-lg">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScLFPrA4orIGbvAbbDC9Cl0UMUdFGnZyQndtzjIji6IweyuVA/viewform?usp=sf_link" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
           <span class="glyphicon glyphicon-search"></span> get in touch
         </a>
+	   <!-- modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			 <!-- Modal content-->
+			
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">CONTACT ME</h4>
+      </div>
+      <div class="modal-body">
+        <p>ENTER YOUR DETAILS </p>
+      </div>
+	  <div class="input-fields1">
+	  <div class="form-group">
+  <label for="usr">Name:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="eml">EMAIL - ID </label>
+  <input type="text" class="form-control" id="eml">
+</div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+   
+	</div>
+    
+  </div>
+</div>
       </div>
       <!--skills     -->
       <section class="skills">
