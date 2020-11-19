@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<meta name="keywords" content="bhavy, suri , bhavy suri , bhavyee ,bhavya suri , bhavya , st.cecilia's public school ," />
+	<meta name="keywords" content="bhavy, suri , bhavy suri , bhavyee ,bhavya suri , bhavya , st.cecilia's puublic school ," />
 	<meta name="robots" content="index,follow" />
 <meta name ="Googlebot" content="index,follow">
 <meta name="YahooSeeker" content="Index,Follow"/>
@@ -13,7 +13,7 @@
 <meta name="distribution" content="Global" />
 <meta name="doc-class" content="Published" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website</title>
+    <title>hey bhavyee</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -331,14 +331,13 @@ text-align : left
         <p>ENTER YOUR DETAILS </p>
       </div>
 	  <div class="input-fields1">
-	  <div action="mail.php" method="post" name="form" class="form-group">
+	  <div class="form-group">
   <label for="name">Name:</label>
-  <input type="text" name="name" class="form-control" placeholder="Enter Your Name" required id="usr">
+  <input type="text" class="form-control" id="usr">
 </div>
 <div class="form-group">
   <label for="email">EMAIL - ID </label>
-  <input type="text" name="email" class="form-control" placeholder="Enter Your Name" required id="eml">
-   <input type="submit" name="submit" value="send" class="sub-btn">
+  <input type="text" class="form-control" id="eml">
 </div>
 </div>
       <div class="modal-footer">
