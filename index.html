@@ -332,11 +332,11 @@ text-align : left
       </div>
 	  <div class="input-fields1">
 	  <div action="mail.php" method="post" name="form" class="form-group">
-  <label for="usr">Name:</label>
+  <label for="name">Name:</label>
   <input type="text" name="name" class="form-control" placeholder="Enter Your Name" required id="usr">
 </div>
 <div class="form-group">
-  <label for="eml">EMAIL - ID </label>
+  <label for="email">EMAIL - ID </label>
   <input type="text" name="email" class="form-control" placeholder="Enter Your Name" required id="eml">
    <input type="submit" name="submit" value="send" class="sub-btn">
 </div>
