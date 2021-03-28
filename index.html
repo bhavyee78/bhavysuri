@@ -278,6 +278,56 @@ padding : 30px ;
 text-align : left 
 
 }
+<!--button anim -->
+.btn {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 0.5s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.buttonr container {
+  
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
   </style>
   
 </head>
@@ -314,8 +364,23 @@ text-align : left
         <h3 class="margin">HI , I'M BHAVYEE</h3>
         <img src="images/bhavyee.PNG" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
         <P>Hi! This Is Bhavy Suri, I Am Ardent Innovator , doing graduation in information technology  </P>
+        <div class="buttonr">
+        <div class="container">
+          <div class="center">
+            <button class="btn">
+
+              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+              </svg>
+              <a href="./images/finalresume.pdf" download="myresume">
+              
+              <span>Download Resume</span>
+            </a>  </button>
+          </div>
+        </div>
       </div>
-      
+      </div>
       <!-- Second Container -->
       <!-- <div class="container-fluid bg-2 text-center"> -->
         <!-- <h3 class="margin">Who Am I?</h3> -->
